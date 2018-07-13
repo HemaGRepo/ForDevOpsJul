@@ -15,12 +15,12 @@ pipeline {
         }
         stage('Compile') {
           steps {
-            bat 'javac Employee.java'
+            bat 'javac EMS/src/Employee.java'
           }
         }
         stage('Execute') {
           steps {
-            bat 'java Employee'
+            bat 'java EMS/src/Employee'
           }
         }
         stage('Report') {
@@ -39,12 +39,12 @@ pipeline {
         }
         stage('Compile') {
           steps {
-            bat 'javac TaxInfo.java'
+            bat 'javac TaxMS/src/TaxInfo.java'
           }
         }
         stage('Execute') {
           steps {
-            bat 'java TaxInfo'
+            bat 'java TaxMS/src/TaxInfo'
           }
         }
         stage('Report') {
