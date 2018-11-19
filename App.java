@@ -1,5 +1,3 @@
-package com.cg.lnd.demo;
-
 /**
  * Hello world!
  *
